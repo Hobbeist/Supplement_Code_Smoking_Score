@@ -11,7 +11,7 @@
 # 1. Reese Score
 
 # Load the Raine study CpG data for Reese, excluding missing values
-Raine_reese_raw <- na.omit(readRDS("data/Raine_reese_raw.rds"))
+Raine_reese_raw <- na.omit(readRDS("/path/to/raine/data.rds"))
 
 # Loop to apply the Reese betas. Weights taken from the  supplemental material Table S1 of 
 # Reese SE, Zhao S, Wu MC, Joubert BR, Parr CL, Haberg SE, et al. 2017. 
@@ -51,12 +51,12 @@ richmond.cpg <- joubert.cpg %>%
   rename(beta = Coef_2)
 
 # Save all the CpG names so it can be selected from NFBC
-saveRDS(richmond.cpg$CpG, file="3-data/richmond-cpgs_normal.rds")
+saveRDS(richmond.cpg$CpG, file="data/richmond-cpgs_normal.rds")
 
 # This data contains the CpGs necessary to create the Richmond score
 # The data only contains the 995 Caucasian Raine Study participants
 
-richmond.data <- read_csv("3-data/richmond-score-data-raine.csv")
+richmond.data <- read_csv("data/richmond-score-data-raine.csv")
 
 # Calculate the Richmond score
 
@@ -92,7 +92,7 @@ richmond.data$richmond_568  <- rowSums(score)
 # The data used is the named "Meta-Analysis of sustained smoking and methylation in older children" in the supplement
 
 # load Joubert CpGs
-joubert.cpg           <- read_csv("3-data/Joubert-cpgs-older-kids.csv")
+joubert.cpg           <- read_csv("data/Joubert-cpgs-older-kids.csv")
 bonferroni.threshold  <- 1.07613e-07
 
 # Select the CpGs that Richmond used (Bonferroni corrected); this will be the 19 CpGs.
@@ -105,7 +105,7 @@ richmond.cpg <- joubert.cpg %>%
 # contains the CpGs necessary to create the Richmond score, although some of them are missing.
 # The data only contains the 995 Caucasian Raine Study participants
 
-richmond.data <- read_csv("3-data/richmond-score-data-raine.csv")
+richmond.data <- read_csv("data/richmond-score-data-raine.csv")
 
 
 # Calculate the Richmond score
