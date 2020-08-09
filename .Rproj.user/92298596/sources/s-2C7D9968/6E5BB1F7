@@ -1,0 +1,25 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1596962901835.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "4173980824",
+    "id" : "6E5BB1F7",
+    "lastKnownWriteTime" : 1596962949,
+    "last_content_update" : 1596962949530,
+    "path" : "~/Dropbox/untitled folder/Project-2_Smoking_Score/5-manuscript/4-editor-comments/Supplement_3/r-code/1-training-elastic-net-model.R",
+    "project_path" : "r-code/1-training-elastic-net-model.R",
+    "properties" : {
+        "cursorPosition" : "24,46",
+        "scrollLine" : "3"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

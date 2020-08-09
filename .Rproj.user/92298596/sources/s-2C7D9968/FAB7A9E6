@@ -1,0 +1,25 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1596962508712.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "FAB7A9E6",
+    "lastKnownWriteTime" : 1596962898,
+    "last_content_update" : 1596962898622,
+    "path" : "~/Dropbox/untitled folder/Project-2_Smoking_Score/5-manuscript/4-editor-comments/Supplement_3/r-code/2-Tuning-GBM-RF-SVM-Models.R",
+    "project_path" : "r-code/2-Tuning-GBM-RF-SVM-Models.R",
+    "properties" : {
+        "cursorPosition" : "26,46",
+        "scrollLine" : "0"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
