@@ -1,7 +1,8 @@
 # Code for the paper: **Machine learning-based DNA methylation score for fetal exposure to maternal smoking: development and validation in samples collected from adolescents and adults**
 Authors: Sebastian Rauschert, Phillip E Melton, Anni Heiskala, Ville Karhunen, Graham Burdge, Jeffrey M Craig, Keith M Godfrey, Karen Lillycrop, Trevor A Mori, Lawrence J Beilin, Wendy H Oddy, Craig Pennell, Marjo-Riitta Järvelin, Sylvain Sebert, Rae-Chi Huang
+*(in Press DOI 10.1289/EHP6076)*
 
-This repository contains the code that was used to train the followinf four models for the development of an in utero smoke exposure score:
+This repository contains the code that was used to train the following four models for the development of an in utero smoke exposure score:
 
 1. Random Forest
 2. Gradient Boosting Machine
